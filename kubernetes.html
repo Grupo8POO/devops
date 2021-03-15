@@ -74,8 +74,11 @@
                     <span>Kubernetes</span>
                     <h2>Kubernetes</h2>
                 </div>
-                <img src="assets/img/Kubernetes.png" class="testimonial-img" alt="">
+                <div align="center">
+                    <img src="assets/img/Kubernetes/Kubernetes.png">
+                </div>            
                 <h3>¿Qué es Kuberneetes (K8S)?</h3>
+                <br>
                 <p>
                     Kubernetes es una plataforma portable y extensible de código abierto para
                     administrar cargas de trabajo y servicios. Kubernetes facilita la automatización
@@ -91,6 +94,141 @@
                     Google liberó el proyecto kubernetes en el año 2014. Kubernetes se basa en la experiencia 
                     de Google corriendo aplicaciones en producción a gran escala por década y media, junto a 
                     las mejores ideas y prácticas de la comunidad.
+                </p>
+
+                <br><br>
+                <h3>Características principales</h3>
+                <br>
+                <p>
+                    Últimamente K8s se está convirtiendo en el estándar de facto para la orquestación de 
+                    contenedores porque aporta muchas más ventajas que otras soluciones en el mercado. Sus
+                     principales características son:
+
+                    <ul>
+                        <strong>Escalado y autoescalado:</strong> En función del uso de CPU permite el escalado vertical de 
+                        tus aplicaciones de manera automática o de forma manual (mediante un comando o 
+                        a través de la interfaz.
+                    </ul>
+                    <ul>
+                        <strong>Descubrimiento de servicios y balanceo de carga:</strong> No es necesario utilizar un mecanismo 
+                        externo para el descubrimiento de servicios ya que Kubernetes asigna a los contenedores 
+                        sus propias direcciones IP y un nombre DNS único para un conjunto de contenedores y puede
+                         balancear la carga sobre ellos.
+                    </ul>
+                    <ul>
+                        <strong>Autorreparación:</strong> En caso de fallo de un contenedor puede reiniciarlo automáticamente.
+                        Puede reemplazar o replanificar contenedores cuando un nodo muere.
+                    </ul>
+                    <ul>
+                        <strong>Despliegues y rollbacks automáticos:</strong> Cuando hay que actualizar una aplicación o cambiar su configuración.
+                    </ul>
+                </p>
+
+                <br> <br>
+                <h3>¿Dónde puedes utilizar Kubernetes?</h3>
+                <br>
+                <p>
+                    Las opciones para utilizar kubernetes apenas tienen restricción, casi cualquier opción de uso es posible gracias a todas las 
+                    posibilidades de instalación que ofrece y porque muchas soluciones lo están integrando en sus arquitecturas. Por ejemplo:
+
+                    <ul>
+                        <strong>Bare Metal:</strong> Podemos desplegar nuestro cluster directamente sobre máquinas físicas utilizando múltiples sistemas 
+                        operativos: Fedora, CentOs, Ubuntu, etc.
+                    </ul>
+                    <ul>
+                        <strong>Virtualización On Premise:</strong> Si queremos montar nuestro cluster On Premise, pero con máquinas virtuales, 
+                        las posibilidades crecen. Podemos utilizar vagrant, CloudStack, VMware, OpenStack, CoreOS, oVirt, Fedora, etc.
+                    </ul>
+                    <ul>
+                        <strong>Soluciones Cloud:</strong> si queremos disponer de todas las ventajas de Kubernetes, sin encargarnos de gestionar 
+                        todo lo que hay por debajo, tenemos todas estas alternativas en la nube.
+                    </ul>
+                    <ul>
+                        <strong>Google Container Engine:</strong> servicio gestionado y ofrecido por Google, que se encarga de manejar por nosotros las 
+                        instancias de Compute Engine que tiene por debajo. Se ocupa también de la monitorización, del logging, de la salud
+                        de las instancias y de actualizar Kubernetes a la última versión disponible.
+                    </ul>
+                </p>
+
+                <br><br>
+                <h3>¿Por qué usar contenedores?</h3>
+                <br>
+                <p>
+                    La manera antigua de desplegar aplicaciones era instalarlas en un servidor usando el administrador de paquetes del sistema operativo.
+                    La desventaja era que los ejecutables, la configuración, las librerías y el ciclo de vida de todos estos componentes se entretejían unos a otros.
+                </p>
+                <p>
+                    La manera nueva es desplegar contenedores basados en virtualización a nivel del sistema operativo, en vez del hardware. Estos 
+                    contenedores están aislados entre ellos y con el servidor anfitrión: tienen sus propios sistemas de archivos, no ven los procesos
+                    de los demás y el uso de recursos puede ser limitado.
+                    En resumen, los beneficios de usar contenedores incluyen:
+
+                    <ul>
+                        <strong>Ágil creación y despliegue de aplicaciones:</strong> Mayor facilidad y eficiencia al crear imágenes de contenedor en vez de máquinas virtuales.
+                    </ul>
+                    <ul>
+                        <strong>Desarrollo, integración y despliegue continuo:</strong> Permite que la imagen de contenedor se construya y despliegue de forma frecuente y confiable,
+                        facilitando los rollbacks pues la imagen es inmutable.
+                    </ul>
+                    <ul>
+                        <strong>Separación de tareas entre Dev y Ops:</strong> Puedes crear imágenes de contenedor al momento de compilar y no al desplegar, desacoplando la 
+                        aplicación de la infraestructura.
+                    </ul>
+                </p>
+
+                <br><br>
+                <h3>¿Cuándo implementar Kubernetes?</h3>
+                <br>
+                <p>
+                    Cuando se necesiten actualizaciones declarativas de las aplicaciones. Ya que nos permite describir el ciclo de vida de una aplicación, como las imágenes que 
+                    desea utilizar, el número de pods que debe haber y la forma en que deben actualizarse.
+                </p>
+                <br> <br>
+                <h3>¿Cuándo realmente estamos implementando totalmente Kubernetes?</h3>
+                <p>
+                    Cuando notamos la simplicidad de las plataformas como servicio Ya que kubernetes ofrece un entorno de administración centrado en contenedores. Kubernetes 
+                    orquesta la infraestructura de cómputo, redes y almacenamiento para que las cargas de trabajo de los usuarios no tengan que hacerlo.
+                </p>
+                <br> <br>
+
+                <div class="section-title">
+                    <span>Métodos Continuous</span>
+                    <h2>Métodos Continuous</h2>
+                </div>
+
+                <div align="center">
+                    <img src="assets/img/Kubernetes/integration.png">
+                </div>
+                <br> <br> 
+                <h3>¿Qué es continuous integration?</h3>
+                <br>
+                <p>
+                    Comúnmente nombrado como CI. Es una práctica de ingeniería de software que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para 
+                    así poder detectar fallos cuanto antes. Entendemos por integración la compilación y ejecución de pruebas de todo un proyecto.
+                </p>
+                <br><br>
+
+                <div align="center">
+                    <img src="assets/img/Kubernetes/Deployment.png">
+                </div>
+                <br> <br>
+                <h3>¿Qué es continuous Deployment?</h3>
+                <br>
+                <p>
+                    Continuous Deployment o despliegue continuo sucede cuando cada cambio en la rama principal que pasa las pruebas CI se lleva a producción sin la necesidad de la interacción humana. 
+                    Como consecuencia podemos realizar varios despliegues al día que proporcionan rápido feedback al equipo de desarrollo.
+                </p>
+                <br><br>
+
+                <div align = "center">
+                    <img src="assets/img/Kubernetes/Testing.png">
+                </div>
+                <br>
+                <h3>¿Qué es continuous Testing?</h3>
+                <br>
+                <p>
+                    Continuous Testing o prueba continua, es la práctica de integrar la prueba como un aspecto fundamental y continuo de cada actividad a través del ciclo de entrega del software. 
+                    Las pruebas continuas permiten que las pruebas se creen y ejecuten automáticamente para que los defectos se puedan identificar y corregir lo antes posible.
                 </p>
             </div>
         </section>
