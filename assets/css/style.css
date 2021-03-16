@@ -319,14 +319,14 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/devops-bg.jpg") top right;
+    background: url("../img/4.jpg") top right;
     background-size: cover;
     position: relative;
 }
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.616);
     position: absolute;
     bottom: 0;
     top: 0;
