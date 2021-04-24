@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Kubernetes - DevOps</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top  d-flex justify-content-center align-items-center ">
+
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <!-- .nav-menu -->
+
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Kubernetes</h2>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Kubernetes</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Breadcrumbs -->
+
+        <!--/////////////////////////////////// CONTENIDO EMPIEZA ACÁ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+        <section class="inner-page">
+            <div class="container">
+                <div class="section-title">
+                    <span>Kubernetes</span>
+                    <h2>Kubernetes</h2>
+                </div>
+                <div align="center">
+                    <img src="assets/img/Kubernetes/Kubernetes.png">
+                </div>            
+                <h3>¿Qué es Kuberneetes o (K8S)?</h3>
+                <br>
+                <p>
+                    La palabra Kubernetes proviene del griego y significa timonel o capitán de un barco también
+                    es conocido como <strong>k8s</strong> que es la abreviación que se obtiene al reemplazar las
+                    ocho letras "ubernete" con el número 8. Basicamente es un sistema de orquestación de contenedores
+                    de código abierto 
+                </p>
+                <p>
+                    Google liberó el proyecto kubernetes en el año 2014. Kubernetes se basa en la experiencia 
+                    de Google corriendo aplicaciones en producción a gran escala por década y media, junto a 
+                    las mejores ideas y prácticas de la comunidad.
+                </p>
+                <p>
+                    En un sistema operativo un proceso se define como el conjunto formado por las instrucciones de un 
+                    programa su estado de ejecución y sus recursos asociados a través del sistema operativo el proceso 
+                    tiene acceso a parte de los recursos físicos disponibles ofrecidos por el hardware normalmente los 
+                    procesos corriendo en un sistema operativo tienen visibilidad los unos sobre los otros.
+                </p>
+                <br><br>
+                <h3>¿Para qué necesitamos orquestación si ya tenemos un container RunTime?</h3>
+                <br>
+                <p>
+                    En los entornos productivos en los que es necesario garantizar alta disponibilidad se utilizan múltiples
+                    nodos o máquinas cada una con su propio container RunTime.
+                </p>
+
+                <br><br>
+                <h3 align="center">Principales Contenedores con kubernetes</h3>
+                <br>
+                <div align="center">
+                    <img src="assets/img/Kubernetes/Contenedores.png">
+                </div>
+
+                <br><br>
+                <h3>Características principales</h3>
+                <br>
+                <p>
+                    Últimamente K8s se está convirtiendo en el mejor sistema de orquestación de 
+                    contenedores porque aporta muchas más ventajas que otras soluciones en el mercado. Sus
+                    principales características son:
+
+                    <ul>
+                        <strong>Escalado y autoescalado:</strong> En función del uso de CPU permite el escalado vertical de 
+                        tus aplicaciones de manera automática o de forma manual (mediante un comando o 
+                        a través de la interfaz.
+                    </ul>
+                    <ul>
+                        <strong>Descubrimiento de servicios y balanceo de carga:</strong> No es necesario utilizar un mecanismo 
+                        externo para el descubrimiento de servicios ya que Kubernetes asigna a los contenedores 
+                        sus propias direcciones IP y un nombre DNS único para un conjunto de contenedores y puede
+                         balancear la carga sobre ellos.
+                    </ul>
+                    <ul>
+                        <strong>Autoreparación:</strong> En caso de fallo de un contenedor puede reiniciarlo automáticamente.
+                        Puede reemplazar o replanificar contenedores cuando un nodo muere.
+                    </ul>
+                    <ul>
+                        <strong>Despliegues y rollbacks automáticos:</strong> Cuando hay que actualizar una aplicación o cambiar su configuración.
+                    </ul>
+                </p>
+
+                <br> <br>
+                <h3>¿Dónde puedes utilizar Kubernetes?</h3>
+                <br>
+                <p>
+                    Las opciones para utilizar kubernetes apenas tienen restricción, casi cualquier opción de uso es posible gracias a todas las 
+                    posibilidades de instalación que ofrece y porque muchas soluciones lo están integrando en sus arquitecturas. Por ejemplo:
+
+                    <ul>
+                        <strong>Bare Metal:</strong> Podemos desplegar nuestro cluster directamente sobre máquinas físicas utilizando múltiples sistemas 
+                        operativos: Fedora, CentOs, Ubuntu, etc.
+                    </ul>
+                    <ul>
+                        <strong>Virtualización On Premise:</strong> Si queremos montar nuestro cluster On Premise, pero con máquinas virtuales, 
+                        las posibilidades crecen. Podemos utilizar vagrant, CloudStack, VMware, OpenStack, CoreOS, oVirt, Fedora, etc.
+                    </ul>
+                    <ul>
+                        <strong>Soluciones Cloud:</strong> si queremos disponer de todas las ventajas de Kubernetes, sin encargarnos de gestionar 
+                        todo lo que hay por debajo, tenemos todas estas alternativas en la nube.
+                    </ul>
+                    <ul>
+                        <strong>Google Container Engine:</strong> servicio gestionado y ofrecido por Google, que se encarga de manejar por nosotros las 
+                        instancias de Compute Engine que tiene por debajo. Se ocupa también de la monitorización, del logging, de la salud
+                        de las instancias y de actualizar Kubernetes a la última versión disponible.
+                    </ul>
+                </p>
+
+                <br><br>
+                <h3>¿Por qué usar contenedores?</h3>
+                <br>
+                <p>
+                    La manera antigua de desplegar aplicaciones era instalarlas en un servidor usando el administrador de paquetes del sistema operativo.
+                    La desventaja era que los ejecutables, la configuración, las librerías y el ciclo de vida de todos estos componentes se entretejían unos a otros.
+                </p>
+                <p>
+                    La manera nueva es desplegar contenedores basados en virtualización a nivel del sistema operativo, en vez del hardware. Estos 
+                    contenedores están aislados entre ellos y con el servidor anfitrión: tienen sus propios sistemas de archivos, no ven los procesos
+                    de los demás y el uso de recursos puede ser limitado.
+                    En resumen, los beneficios de usar contenedores incluyen:
+
+                    <ul>
+                        <strong>Ágil creación y despliegue de aplicaciones:</strong> Mayor facilidad y eficiencia al crear imágenes de contenedor en vez de máquinas virtuales.
+                    </ul>
+                    <ul>
+                        <strong>Desarrollo, integración y despliegue continuo:</strong> Permite que la imagen de contenedor se construya y despliegue de forma frecuente y confiable,
+                        facilitando los rollbacks pues la imagen es inmutable.
+                    </ul>
+                    <ul>
+                        <strong>Separación de tareas entre Dev y Ops:</strong> Puedes crear imágenes de contenedor al momento de compilar y no al desplegar, desacoplando la 
+                        aplicación de la infraestructura.
+                    </ul>
+                </p>
+
+                <br><br>
+                <h3>¿Cuándo implementar Kubernetes?</h3>
+                <br>
+                <p>
+                    Cuando se necesiten actualizaciones declarativas de las aplicaciones. Ya que nos permite describir el ciclo de vida de una aplicación, como las imágenes que 
+                    desea utilizar, el número de pods que debe haber y la forma en que deben actualizarse.
+                </p>
+                <br> <br>
+                <h3>¿Cuándo realmente estamos implementando totalmente Kubernetes?</h3>
+                <p>
+                    Cuando notamos la simplicidad de las plataformas como servicio Ya que kubernetes ofrece un entorno de administración centrado en contenedores. Kubernetes 
+                    orquesta la infraestructura de cómputo, redes y almacenamiento para que las cargas de trabajo de los usuarios no tengan que hacerlo.
+                </p>
+                <br> <br>
+                <div align="center">
+                    <img src="assets/img/Kubernetes/Kubernet.jpg">
+                </div>
+
+                <br><br>
+                <h4>Información:</h4>
+                <div>
+                    Puede ver el libro desde play libros en android acá:
+                    <form method="get" action="/store/books/details/Kubernetes_for_Full_Stack_Developers?id=oy3RDwAAQBAJ">
+                        <input type="submit" value="Descargar">
+                    </form>
+                    <br>
+                    Puede descargar el pdf desde este link:
+                    <form method="get" action="https://drive.google.com/file/d/1jlQaNtSode26298ivRrVbJKE4iDoVADX/view?usp=sharing">
+                        <input type="submit" value="Descargar">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--/////////////////////////////////// CONTENIDO TERMINA ACÁ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>DevOps</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+            </p>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Grupo 8</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Diseñado por <a href="https://acerca.com/">Grupo 8</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
