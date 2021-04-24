@@ -36,11 +36,16 @@
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Estadísticas</a></li>
+                <li><a href="generalidades.html">¿Qué es?</a></li>
+                <li class="active"><a href="kubernetes.html">Contenedores</a></li>
+                <li><a href="tecnicas.html">Técnicas</a></li>
+                <li><a href="integraciones.html">Integraciones</a></li>
+                <li><a href="#">Guía</a></li>
+                <li><a href="#">Cuestionario</a></li>
+                <li><a href="#">A cerca de</a></li>
+
+
 
             </ul>
         </nav>
@@ -76,32 +81,25 @@
                 </div>
                 <div align="center">
                     <img src="assets/img/Kubernetes/Kubernetes.png">
-                </div>            
+                </div>
                 <h3>¿Qué es Kuberneetes o (K8S)?</h3>
                 <br>
                 <p>
-                    La palabra Kubernetes proviene del griego y significa timonel o capitán de un barco también
-                    es conocido como <strong>k8s</strong> que es la abreviación que se obtiene al reemplazar las
-                    ocho letras "ubernete" con el número 8. Basicamente es un sistema de orquestación de contenedores
-                    de código abierto 
+                    La palabra Kubernetes proviene del griego y significa timonel o capitán de un barco también es conocido como <strong>k8s</strong> que es la abreviación que se obtiene al reemplazar las ocho letras "ubernete" con el número 8. Basicamente
+                    es un sistema de orquestación de contenedores de código abierto
                 </p>
                 <p>
-                    Google liberó el proyecto kubernetes en el año 2014. Kubernetes se basa en la experiencia 
-                    de Google corriendo aplicaciones en producción a gran escala por década y media, junto a 
-                    las mejores ideas y prácticas de la comunidad.
+                    Google liberó el proyecto kubernetes en el año 2014. Kubernetes se basa en la experiencia de Google corriendo aplicaciones en producción a gran escala por década y media, junto a las mejores ideas y prácticas de la comunidad.
                 </p>
                 <p>
-                    En un sistema operativo un proceso se define como el conjunto formado por las instrucciones de un 
-                    programa su estado de ejecución y sus recursos asociados a través del sistema operativo el proceso 
-                    tiene acceso a parte de los recursos físicos disponibles ofrecidos por el hardware normalmente los 
-                    procesos corriendo en un sistema operativo tienen visibilidad los unos sobre los otros.
+                    En un sistema operativo un proceso se define como el conjunto formado por las instrucciones de un programa su estado de ejecución y sus recursos asociados a través del sistema operativo el proceso tiene acceso a parte de los recursos físicos disponibles
+                    ofrecidos por el hardware normalmente los procesos corriendo en un sistema operativo tienen visibilidad los unos sobre los otros.
                 </p>
                 <br><br>
                 <h3>¿Para qué necesitamos orquestación si ya tenemos un container RunTime?</h3>
                 <br>
                 <p>
-                    En los entornos productivos en los que es necesario garantizar alta disponibilidad se utilizan múltiples
-                    nodos o máquinas cada una con su propio container RunTime.
+                    En los entornos productivos en los que es necesario garantizar alta disponibilidad se utilizan múltiples nodos o máquinas cada una con su propio container RunTime.
                 </p>
 
                 <br><br>
@@ -115,24 +113,17 @@
                 <h3>Características principales</h3>
                 <br>
                 <p>
-                    Últimamente K8s se está convirtiendo en el mejor sistema de orquestación de 
-                    contenedores porque aporta muchas más ventajas que otras soluciones en el mercado. Sus
-                    principales características son:
+                    Últimamente K8s se está convirtiendo en el mejor sistema de orquestación de contenedores porque aporta muchas más ventajas que otras soluciones en el mercado. Sus principales características son:
 
                     <ul>
-                        <strong>Escalado y autoescalado:</strong> En función del uso de CPU permite el escalado vertical de 
-                        tus aplicaciones de manera automática o de forma manual (mediante un comando o 
-                        a través de la interfaz.
+                        <strong>Escalado y autoescalado:</strong> En función del uso de CPU permite el escalado vertical de tus aplicaciones de manera automática o de forma manual (mediante un comando o a través de la interfaz.
                     </ul>
                     <ul>
-                        <strong>Descubrimiento de servicios y balanceo de carga:</strong> No es necesario utilizar un mecanismo 
-                        externo para el descubrimiento de servicios ya que Kubernetes asigna a los contenedores 
-                        sus propias direcciones IP y un nombre DNS único para un conjunto de contenedores y puede
-                         balancear la carga sobre ellos.
+                        <strong>Descubrimiento de servicios y balanceo de carga:</strong> No es necesario utilizar un mecanismo externo para el descubrimiento de servicios ya que Kubernetes asigna a los contenedores sus propias direcciones IP y un nombre
+                        DNS único para un conjunto de contenedores y puede balancear la carga sobre ellos.
                     </ul>
                     <ul>
-                        <strong>Autoreparación:</strong> En caso de fallo de un contenedor puede reiniciarlo automáticamente.
-                        Puede reemplazar o replanificar contenedores cuando un nodo muere.
+                        <strong>Autoreparación:</strong> En caso de fallo de un contenedor puede reiniciarlo automáticamente. Puede reemplazar o replanificar contenedores cuando un nodo muere.
                     </ul>
                     <ul>
                         <strong>Despliegues y rollbacks automáticos:</strong> Cuando hay que actualizar una aplicación o cambiar su configuración.
@@ -143,25 +134,20 @@
                 <h3>¿Dónde puedes utilizar Kubernetes?</h3>
                 <br>
                 <p>
-                    Las opciones para utilizar kubernetes apenas tienen restricción, casi cualquier opción de uso es posible gracias a todas las 
-                    posibilidades de instalación que ofrece y porque muchas soluciones lo están integrando en sus arquitecturas. Por ejemplo:
+                    Las opciones para utilizar kubernetes apenas tienen restricción, casi cualquier opción de uso es posible gracias a todas las posibilidades de instalación que ofrece y porque muchas soluciones lo están integrando en sus arquitecturas. Por ejemplo:
 
                     <ul>
-                        <strong>Bare Metal:</strong> Podemos desplegar nuestro cluster directamente sobre máquinas físicas utilizando múltiples sistemas 
-                        operativos: Fedora, CentOs, Ubuntu, etc.
+                        <strong>Bare Metal:</strong> Podemos desplegar nuestro cluster directamente sobre máquinas físicas utilizando múltiples sistemas operativos: Fedora, CentOs, Ubuntu, etc.
                     </ul>
                     <ul>
-                        <strong>Virtualización On Premise:</strong> Si queremos montar nuestro cluster On Premise, pero con máquinas virtuales, 
-                        las posibilidades crecen. Podemos utilizar vagrant, CloudStack, VMware, OpenStack, CoreOS, oVirt, Fedora, etc.
+                        <strong>Virtualización On Premise:</strong> Si queremos montar nuestro cluster On Premise, pero con máquinas virtuales, las posibilidades crecen. Podemos utilizar vagrant, CloudStack, VMware, OpenStack, CoreOS, oVirt, Fedora, etc.
                     </ul>
                     <ul>
-                        <strong>Soluciones Cloud:</strong> si queremos disponer de todas las ventajas de Kubernetes, sin encargarnos de gestionar 
-                        todo lo que hay por debajo, tenemos todas estas alternativas en la nube.
+                        <strong>Soluciones Cloud:</strong> si queremos disponer de todas las ventajas de Kubernetes, sin encargarnos de gestionar todo lo que hay por debajo, tenemos todas estas alternativas en la nube.
                     </ul>
                     <ul>
-                        <strong>Google Container Engine:</strong> servicio gestionado y ofrecido por Google, que se encarga de manejar por nosotros las 
-                        instancias de Compute Engine que tiene por debajo. Se ocupa también de la monitorización, del logging, de la salud
-                        de las instancias y de actualizar Kubernetes a la última versión disponible.
+                        <strong>Google Container Engine:</strong> servicio gestionado y ofrecido por Google, que se encarga de manejar por nosotros las instancias de Compute Engine que tiene por debajo. Se ocupa también de la monitorización, del logging,
+                        de la salud de las instancias y de actualizar Kubernetes a la última versión disponible.
                     </ul>
                 </p>
 
@@ -169,25 +155,21 @@
                 <h3>¿Por qué usar contenedores?</h3>
                 <br>
                 <p>
-                    La manera antigua de desplegar aplicaciones era instalarlas en un servidor usando el administrador de paquetes del sistema operativo.
-                    La desventaja era que los ejecutables, la configuración, las librerías y el ciclo de vida de todos estos componentes se entretejían unos a otros.
+                    La manera antigua de desplegar aplicaciones era instalarlas en un servidor usando el administrador de paquetes del sistema operativo. La desventaja era que los ejecutables, la configuración, las librerías y el ciclo de vida de todos estos componentes
+                    se entretejían unos a otros.
                 </p>
                 <p>
-                    La manera nueva es desplegar contenedores basados en virtualización a nivel del sistema operativo, en vez del hardware. Estos 
-                    contenedores están aislados entre ellos y con el servidor anfitrión: tienen sus propios sistemas de archivos, no ven los procesos
-                    de los demás y el uso de recursos puede ser limitado.
-                    En resumen, los beneficios de usar contenedores incluyen:
+                    La manera nueva es desplegar contenedores basados en virtualización a nivel del sistema operativo, en vez del hardware. Estos contenedores están aislados entre ellos y con el servidor anfitrión: tienen sus propios sistemas de archivos, no ven los procesos
+                    de los demás y el uso de recursos puede ser limitado. En resumen, los beneficios de usar contenedores incluyen:
 
                     <ul>
                         <strong>Ágil creación y despliegue de aplicaciones:</strong> Mayor facilidad y eficiencia al crear imágenes de contenedor en vez de máquinas virtuales.
                     </ul>
                     <ul>
-                        <strong>Desarrollo, integración y despliegue continuo:</strong> Permite que la imagen de contenedor se construya y despliegue de forma frecuente y confiable,
-                        facilitando los rollbacks pues la imagen es inmutable.
+                        <strong>Desarrollo, integración y despliegue continuo:</strong> Permite que la imagen de contenedor se construya y despliegue de forma frecuente y confiable, facilitando los rollbacks pues la imagen es inmutable.
                     </ul>
                     <ul>
-                        <strong>Separación de tareas entre Dev y Ops:</strong> Puedes crear imágenes de contenedor al momento de compilar y no al desplegar, desacoplando la 
-                        aplicación de la infraestructura.
+                        <strong>Separación de tareas entre Dev y Ops:</strong> Puedes crear imágenes de contenedor al momento de compilar y no al desplegar, desacoplando la aplicación de la infraestructura.
                     </ul>
                 </p>
 
@@ -195,14 +177,13 @@
                 <h3>¿Cuándo implementar Kubernetes?</h3>
                 <br>
                 <p>
-                    Cuando se necesiten actualizaciones declarativas de las aplicaciones. Ya que nos permite describir el ciclo de vida de una aplicación, como las imágenes que 
-                    desea utilizar, el número de pods que debe haber y la forma en que deben actualizarse.
+                    Cuando se necesiten actualizaciones declarativas de las aplicaciones. Ya que nos permite describir el ciclo de vida de una aplicación, como las imágenes que desea utilizar, el número de pods que debe haber y la forma en que deben actualizarse.
                 </p>
                 <br> <br>
                 <h3>¿Cuándo realmente estamos implementando totalmente Kubernetes?</h3>
                 <p>
-                    Cuando notamos la simplicidad de las plataformas como servicio Ya que kubernetes ofrece un entorno de administración centrado en contenedores. Kubernetes 
-                    orquesta la infraestructura de cómputo, redes y almacenamiento para que las cargas de trabajo de los usuarios no tengan que hacerlo.
+                    Cuando notamos la simplicidad de las plataformas como servicio Ya que kubernetes ofrece un entorno de administración centrado en contenedores. Kubernetes orquesta la infraestructura de cómputo, redes y almacenamiento para que las cargas de trabajo de
+                    los usuarios no tengan que hacerlo.
                 </p>
                 <br> <br>
                 <div align="center">
@@ -216,8 +197,7 @@
                     <form method="get" action="/store/books/details/Kubernetes_for_Full_Stack_Developers?id=oy3RDwAAQBAJ">
                         <input type="submit" value="Descargar">
                     </form>
-                    <br>
-                    Puede descargar el pdf desde este link:
+                    <br> Puede descargar el pdf desde este link:
                     <form method="get" action="https://drive.google.com/file/d/1jlQaNtSode26298ivRrVbJKE4iDoVADX/view?usp=sharing">
                         <input type="submit" value="Descargar">
                     </form>
