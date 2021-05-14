@@ -52,7 +52,7 @@ h6 {
 }
 
 .back-to-top i:hover {
-    background: #70deff;
+    background: #b8eeff;
     color: #fff;
 }
 
@@ -819,6 +819,94 @@ section {
 
 .services .icon-box:hover .title a {
     color: #ffb727;
+}
+
+
+/*--------------------------------------------------------------
+# Generalidades
+--------------------------------------------------------------*/
+
+section.generalidades {
+    background-color: #e8faff8f;
+}
+
+section.generalidades .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+section.generalidades .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+section.generalidades .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Contenedores
+--------------------------------------------------------------*/
+
+section.contenedores {
+    background: rgba(35, 17, 103, 1);
+    background: -moz-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -webkit-gradient(left top, right top, color-stop(11%, rgba(35, 17, 103, 1)), color-stop(51%, rgba(17, 18, 64, 1)));
+    background: -webkit-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -o-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -ms-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: linear-gradient(to right, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#231167', endColorstr='#111240', GradientType=1);
+    color: #ffff;
+}
+
+section.contenedores .section-title span {
+    color: rgba(255, 255, 255, 0.301);
+}
+
+section.contenedores .section-title h2 {
+    color: #ffff;
+}
+
+section.contenedores .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+section.contenedores .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+section.contenedores .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
 }
 
 
