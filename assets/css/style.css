@@ -830,6 +830,10 @@ section.generalidades {
     background-color: #e8faff8f;
 }
 
+section.generalidades .section-title span {
+    color: rgba(56, 55, 55, 0.075);
+}
+
 section.generalidades .feature-item {
     padding-top: 50px;
     padding-bottom: 50px;
