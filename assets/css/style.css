@@ -863,6 +863,65 @@ section.generalidades .feature-item .cta-btn:hover {
 
 
 /*--------------------------------------------------------------
+# Implementación
+--------------------------------------------------------------*/
+
+section.implementacion {
+    background: #4D4D4D;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#231167', endColorstr='#111240', GradientType=1);
+    color: #ffff;
+}
+
+section.implementacion .section-title span {
+    color: rgba(255, 255, 255, 0.192);
+}
+
+section.implementacion .section-title h2 {
+    color: #ffff;
+}
+
+section.implementacion .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -35px;
+    text-align: left;
+}
+
+section.implementacion .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #CECECE;
+    color: #CECECE;
+}
+
+section.implementacion .feature-item .cta-btn:hover {
+    background: #CECECE;
+    border: 2px solid #CECECE;
+    color: #272727;
+}
+
+@media (min-width: 1024px) {
+    .implementacion {
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    .implementacion .implementacion h2 {
+        width: 100%;
+    }
+}
+
+
+/*--------------------------------------------------------------
 # Contenedores
 --------------------------------------------------------------*/
 
@@ -879,7 +938,7 @@ section.contenedores {
 }
 
 section.contenedores .section-title span {
-    color: rgba(255, 255, 255, 0.301);
+    color: rgba(255, 255, 255, 0.164);
 }
 
 section.contenedores .section-title h2 {
@@ -908,6 +967,89 @@ section.contenedores .feature-item .cta-btn {
 }
 
 section.contenedores .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Técnicas
+--------------------------------------------------------------*/
+
+.tecnicas .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.tecnicas .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background: #c8f2fd83;
+}
+
+.tecnicas .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #27CDFD;
+}
+
+.tecnicas .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.tecnicas .title a {
+    color: #111;
+    transition: 0.3s;
+}
+
+.tecnicas .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.tecnicas .icon-box:hover {
+    border-color: #27CDFD;
+}
+
+.tecnicas .icon-box:hover .title a {
+    color: #27CDFD;
+}
+
+.tecnicas .feature-item {
+    text-align: center;
+}
+
+.tecnicas .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 25px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+.tecnicas .feature-item .cta-btn:hover {
     background: #27CDFD;
     border: 2px solid #27CDFD;
     color: #fff;
