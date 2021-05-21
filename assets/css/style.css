@@ -977,11 +977,19 @@ section.contenedores .feature-item .cta-btn:hover {
 # Técnicas
 --------------------------------------------------------------*/
 
+section.tecnicas {
+    background: #F2FCFF;
+}
+
+section.tecnicas .section-title span {
+    color: rgba(56, 55, 55, 0.075);
+}
+
 .tecnicas .icon-box {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     transition: all 0.3s ease-in-out;
     text-align: center;
@@ -1023,7 +1031,8 @@ section.contenedores .feature-item .cta-btn:hover {
 }
 
 .tecnicas .icon-box:hover {
-    border-color: #27CDFD;
+    border-color: #27cffd94;
+    transition: 0.5s;
 }
 
 .tecnicas .icon-box:hover .title a {
@@ -1053,6 +1062,243 @@ section.contenedores .feature-item .cta-btn:hover {
     background: #27CDFD;
     border: 2px solid #27CDFD;
     color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Integraciones
+--------------------------------------------------------------*/
+
+section.integraciones .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+section.integraciones .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+section.integraciones .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Guías
+--------------------------------------------------------------*/
+
+section.guias {
+    background: #fdfde8;
+}
+
+section.guias .section-title span {
+    color: rgba(56, 55, 55, 0.075);
+}
+
+.guias .icon-box {
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+}
+
+.guias .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+.guias .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.guias .icon-box h3 a {
+    color: #493c3e;
+    transition: ease-in-out 0.3s;
+}
+
+.guias .icon-box:hover a {
+    color: #47aeff;
+}
+
+section.guias .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #47aeff;
+    color: #47aeff;
+}
+
+section.guias .feature-item .cta-btn:hover {
+    background: #47aeff;
+    border: 2px solid #47aeff;
+    color: #fff;
+}
+
+.guias .feature-item {
+    text-align: center;
+    margin: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Cuestionario
+--------------------------------------------------------------*/
+
+section.cuestionario {
+    background: rgba(35, 17, 103, 1);
+    background: -moz-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -webkit-gradient(left top, right top, color-stop(11%, rgba(35, 17, 103, 1)), color-stop(51%, rgba(17, 18, 64, 1)));
+    background: -webkit-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -o-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: -ms-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    background: linear-gradient(to right, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#231167', endColorstr='#111240', GradientType=1);
+    color: #ffff;
+}
+
+section.cuestionario .section-title span {
+    color: rgba(255, 255, 255, 0.164);
+}
+
+section.cuestionario .section-title h2 {
+    color: #ffff;
+}
+
+section.cuestionario .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+section.cuestionario .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+section.cuestionario .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# A cerca de
+--------------------------------------------------------------*/
+
+.team {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #493c3e;
+    margin: 0 10px;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.team .member .social a:hover {
+    color: #e43c5c;
+}
+
+.team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #493c3e;
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.team .member:hover .social {
+    opacity: 1;
 }
 
 
@@ -1160,549 +1406,6 @@ section.contenedores .feature-item .cta-btn:hover {
 @media (min-width: 992px) {
     .testimonials .testimonial-item p {
         width: 80%;
-    }
-}
-
-
-/*--------------------------------------------------------------
-# My Portfolio
---------------------------------------------------------------*/
-
-.portfolio #portfolio-flters {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 10px 10px 10px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1;
-    padding: 7px 10px;
-    text-transform: uppercase;
-    color: #444444;
-    transition: all 0.3s ease-in-out;
-    border: 2px solid #fff;
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-    color: #f3a200;
-    border-color: #ffb727;
-}
-
-.portfolio .portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio .portfolio-item .portfolio-img {
-    overflow: hidden;
-}
-
-.portfolio .portfolio-item .portfolio-img img {
-    transition: all 0.8s ease-in-out;
-}
-
-.portfolio .portfolio-item .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    left: 15px;
-    bottom: 0;
-    z-index: 3;
-    right: 15px;
-    transition: all ease-in-out 0.3s;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 15px;
-}
-
-.portfolio .portfolio-item .portfolio-info h4 {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 0px;
-}
-
-.portfolio .portfolio-item .portfolio-info p {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
-    position: absolute;
-    right: 40px;
-    font-size: 24px;
-    top: calc(50% - 18px);
-    color: #fff;
-    transition: 0.3s;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #ffc041;
-}
-
-.portfolio .portfolio-item .portfolio-info .details-link {
-    right: 10px;
-}
-
-.portfolio .portfolio-item:hover .portfolio-img img {
-    transform: scale(1.2);
-}
-
-.portfolio .portfolio-item:hover .portfolio-info {
-    opacity: 1;
-}
-
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-
-.portfolio-details {
-    padding-top: 30px;
-}
-
-.portfolio-details .portfolio-details-container {
-    position: relative;
-}
-
-.portfolio-details .portfolio-details-carousel {
-    position: relative;
-    z-index: 1;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
-    margin-top: 5px;
-    text-align: left;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-    display: inline-block;
-    margin: 0 10px 0 0;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ddd !important;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #ffb727 !important;
-}
-
-.portfolio-details .portfolio-info {
-    padding: 30px;
-    position: absolute;
-    right: 0;
-    bottom: -70px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-}
-
-.portfolio-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-    margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-    padding-top: 50px;
-}
-
-.portfolio-details .portfolio-description h2 {
-    width: 50%;
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-    padding: 0 0 0 0;
-}
-
-@media (max-width: 768px) {
-    .portfolio-details .portfolio-description h2 {
-        width: 100%;
-    }
-    .portfolio-details .portfolio-info {
-        position: static;
-        margin-top: 30px;
-    }
-}
-
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-
-.pricing .box {
-    padding: 20px;
-    background: #fff;
-    text-align: center;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-}
-
-.pricing h3 {
-    font-weight: 400;
-    margin: -20px -20px 20px -20px;
-    padding: 20px 15px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #777777;
-    background: #f8f8f8;
-}
-
-.pricing h4 {
-    font-size: 36px;
-    color: #37CFFD;
-    font-weight: 600;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-    font-size: 20px;
-    top: -12px;
-    left: -3px;
-}
-
-.pricing h4 span {
-    color: #bababa;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.pricing ul {
-    padding: 0;
-    list-style: none;
-    color: #444444;
-    text-align: center;
-    line-height: 20px;
-    font-size: 14px;
-}
-
-.pricing ul li {
-    padding-bottom: 16px;
-}
-
-.pricing ul i {
-    color: #37CFFD;
-    font-size: 18px;
-    padding-right: 4px;
-}
-
-.pricing ul .na {
-    color: #ccc;
-    text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-    margin: 20px -20px -20px -20px;
-    padding: 20px 15px;
-    background: #f8f8f8;
-    text-align: center;
-}
-
-.pricing .btn-buy {
-    background: #ffb727;
-    display: inline-block;
-    padding: 8px 35px;
-    border-radius: 4px;
-    color: #fff;
-    transition: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-    background: #ffc85a;
-}
-
-.pricing .featured h3 {
-    color: #fff;
-    background: #ffb727;
-}
-
-.pricing .advanced {
-    width: 200px;
-    position: absolute;
-    top: 18px;
-    right: -68px;
-    transform: rotate(45deg);
-    z-index: 1;
-    font-size: 14px;
-    padding: 1px 0 3px 0;
-    background: #ffb727;
-    color: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.team {
-    background: #fff;
-    padding: 60px 0;
-}
-
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team .member .member-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.85);
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    color: #493c3e;
-    margin: 0 10px;
-    padding-top: 8px;
-    display: inline-block;
-}
-
-.team .member .social a:hover {
-    color: #e43c5c;
-}
-
-.team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
-.team .member .member-info {
-    padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: #493c3e;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
-}
-
-.team .member:hover .social {
-    opacity: 1;
-}
-
-
-/*--------------------------------------------------------------
-# Contact Me
---------------------------------------------------------------*/
-
-.contact .info-box {
-    color: #444444;
-    text-align: center;
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 20px 0 30px 0;
-}
-
-.contact .info-box i.bx {
-    font-size: 24px;
-    color: #ffb727;
-    border-radius: 50%;
-    padding: 15px;
-    background: #fff6e4;
-}
-
-.contact .info-box h3 {
-    font-size: 20px;
-    color: #777777;
-    font-weight: 700;
-    margin: 10px 0;
-}
-
-.contact .info-box p {
-    padding: 0;
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.contact .social-links {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-.contact .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    color: #687683;
-    line-height: 1;
-    margin: 0 8px;
-    transition: 0.3s;
-    padding: 14px;
-    border-radius: 50px;
-    border: 1px solid #dde1e4;
-}
-
-.contact .social-links a:hover {
-    color: #fff;
-    border-color: #37CFFD;
-    background: #37CFFD;
-}
-
-.contact .php-email-form {
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 27px;
-}
-
-.contact .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-    margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-}
-
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-    background-color: #ffb727;
-}
-
-.contact .php-email-form input {
-    padding: 20px 15px;
-}
-
-.contact .php-email-form textarea {
-    padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-    background: #ffb727;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 5px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-    background: #ffc85a;
-}
-
-@-webkit-keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
     }
 }
 
