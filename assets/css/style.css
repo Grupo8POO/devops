@@ -1181,21 +1181,21 @@ section.cuestionario {
     background: -ms-linear-gradient(left, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
     background: linear-gradient(to right, rgba(35, 17, 103, 1) 11%, rgba(17, 18, 64, 1) 51%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#231167', endColorstr='#111240', GradientType=1);
-    color: #ffff;
 }
 
 section.cuestionario .section-title span {
     color: rgba(255, 255, 255, 0.164);
 }
 
-section.cuestionario .section-title h2 {
+section.cuestionario .section-title h2,
+section.cuestionario .section-title p {
     color: #ffff;
 }
 
 section.cuestionario .feature-item {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 section.cuestionario .feature-item .cta-btn {
@@ -1219,86 +1219,135 @@ section.cuestionario .feature-item .cta-btn:hover {
     color: #fff;
 }
 
+section.cuestionario ol li:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+    transition: 0.5s;
+}
+
 
 /*--------------------------------------------------------------
 # A cerca de
 --------------------------------------------------------------*/
 
-.team {
-    background: #fff;
-    padding: 60px 0;
+section.acerca {
+    background: #F2FCFF;
 }
 
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+section.acerca .section-title span {
+    color: rgba(56, 55, 55, 0.075);
 }
 
-.team .member .member-img {
+.acerca .icon-box {
+    padding: 30px;
     position: relative;
     overflow: hidden;
-}
-
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
+    background: #ffffff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
     text-align: center;
-    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #fff;
 }
 
-.team .member .social a {
-    transition: color 0.3s;
-    color: #493c3e;
-    margin: 0 10px;
-    padding-top: 8px;
+.acerca .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
     display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background: #c8f2fd83;
 }
 
-.team .member .social a:hover {
-    color: #e43c5c;
+.acerca .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #27CDFD;
 }
 
-.team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
-.team .member .member-info {
-    padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
+.acerca .title {
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 18px;
-    color: #493c3e;
 }
 
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
+.acerca .title a {
+    color: #111;
+    transition: 0.3s;
 }
 
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
+.acerca .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
 }
 
-.team .member:hover .social {
-    opacity: 1;
+.acerca .icon-box:hover {
+    border-color: #27cffd94;
+    transition: 0.5s;
+}
+
+.acerca .icon-box:hover .title a {
+    color: #27CDFD;
+}
+
+.acerca .feature-item {
+    text-align: center;
+}
+
+.acerca .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 25px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+.acerca .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Integraciones
+--------------------------------------------------------------*/
+
+section.integraciones .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+section.integraciones .feature-item .cta-btn {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #27CDFD;
+    color: #27CDFD;
+}
+
+section.integraciones .feature-item .cta-btn:hover {
+    background: #27CDFD;
+    border: 2px solid #27CDFD;
+    color: #fff;
 }
 
 
